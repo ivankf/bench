@@ -16,7 +16,7 @@ VERSION="v2022-09-13"
 echo -e '# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #'
 echo -e '#                   Disk-Bench-Script                #'
 echo -e '#                     '$VERSION'                    #'
-echo -e '#   https://jihulab.com/influxdb-incubator/script    #'
+echo -e '#           https://github.com/ivankf/bench          #'
 echo -e '# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #'
 
 echo -e
