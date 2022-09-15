@@ -158,8 +158,8 @@ trap catch_abort INT
 # Purpose: This method will catch CTRL+C signals in order to exit the script cleanly and remove
 #          bench-related files.
 function catch_abort() {
-	echo -e "\n** Aborting YABS. Cleaning up files...\n"
-	rm -rf $YABS_PATH
+	echo -e "\n** Aborting BENCH. Cleaning up files...\n"
+	rm -rf $BENCH_PATH
 	unset LC_ALL
 	exit 0
 }
