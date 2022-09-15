@@ -9,6 +9,10 @@ Disk benchmark for Linux system
 ```shell
 curl -sL https://raw.githubusercontent.com/ivankf/bench/main/iops.sh | bash
 ```
+or
+```shell
+wget -qO- https://raw.githubusercontent.com/ivankf/bench/main/iops.sh | bash
+```
 
 
 2. Benchmark the disk on the specified path
@@ -16,8 +20,12 @@ curl -sL https://raw.githubusercontent.com/ivankf/bench/main/iops.sh | bash
 ```shell
 curl -sL https://raw.githubusercontent.com/ivankf/bench/main/iops.sh | bash -s -- <target_path>
 ```
+or
+```shell
+wget -qO- https://raw.githubusercontent.com/ivankf/bench/main/iops.sh | bash -s -- <target_path>
+```
 
-## What metrics are counted?
+## Example Output
 
 ```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
