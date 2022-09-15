@@ -1,8 +1,8 @@
 # Bench
 
-## Usage
-
 Disk benchmark for Linux system
+
+## Usage
 
 1. Benchmark the disk in the current path
 
